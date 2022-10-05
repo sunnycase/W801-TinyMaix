@@ -1,0 +1,3 @@
+[submodule "src/app/tinyml/TinyMaix"]
+	path = src/app/tinyml/TinyMaix
+	url = https://github.com/sunnycase/TinyMaix.git
