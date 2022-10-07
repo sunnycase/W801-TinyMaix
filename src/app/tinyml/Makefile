@@ -3,6 +3,7 @@ sinclude $(TOP_DIR)/tools/w800/conf.mk
 
 ifndef PDIR
 GEN_LIBS = libtinyml$(LIB_EXT)
+COMPONENTS_libtinyml = TinyMaix/libTinyMaix$(LIB_EXT)
 endif
 
 #DEFINES +=

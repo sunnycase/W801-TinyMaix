@@ -80,7 +80,7 @@ CRYPTO
 #define TLS_CONFIG_BR_EDR								CFG_OFF
 #else
 #define TLS_CONFIG_BLE                                  CFG_OFF
-#define TLS_CONFIG_BR_EDR								CFG_ON
+#define TLS_CONFIG_BR_EDR								CFG_OFF
 #endif
 
 #define TLS_CONFIG_BT                                  (TLS_CONFIG_BR_EDR || TLS_CONFIG_BLE)

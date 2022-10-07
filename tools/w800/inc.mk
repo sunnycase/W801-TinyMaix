@@ -37,6 +37,7 @@ INCLUDES += -I $(TOP_DIR)/src/app/libwebsockets-2.1-stable
 INCLUDES += -I $(TOP_DIR)/src/app/fatfs
 INCLUDES += -I $(TOP_DIR)/src/app/mbedtls/include
 INCLUDES += -I $(TOP_DIR)/src/app/mbedtls/ports
+INCLUDES += -I $(TOP_DIR)/src/app/tinyml/TinyMaix/include
 INCLUDES += -I $(TOP_DIR)/src/network/api2.0.3
 INCLUDES += -I $(TOP_DIR)/src/network/lwip2.0.3/include
 INCLUDES += -I $(TOP_DIR)/src/os/rtos/include
